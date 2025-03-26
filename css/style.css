@@ -2,6 +2,7 @@
 :root {
     --color-header: #ff0000;
     --color-hero-bg: #B4D0E6;
+    --column-gap: 50px;
 }
 
 /* RESET */
@@ -19,11 +20,22 @@ img {
 /* layout */
 
 .py-20 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.container {
+.my-20 {
+    margin-bottom: 20px;
+}
+
+.mx-20 {
+    margin-right: 20px;
+}
+
+
+
+.main {
+
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
@@ -34,15 +46,75 @@ img {
     background-color: var(--color-header);
     display: flex;
     justify-content: space-between;
-    padding: 10px ;
+    padding: 10px;
 }
 
 .navigation {
     width: 30%;
+    /* debug */
     height: 50px;
     background-color: rgb(25, 101, 168);
 
 }
 
 /* MAIN */
+/* hero section */
+.hero-section {
+    background-color: var(--color-hero-bg);
+
+    height: 500px;
+    text-align: center;
+
+}
+
+.hero-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-hero {
+    display: flex;
+}
+
+.col-small {
+    width: 40%;
+    border: black 2px solid;
+    height: 300px;
+}
+
+.col-big {
+    width: 60%;
+    border: black 2px solid;
+    height: 300px;
+}
+
+/* main section */
+
+.section {
+    padding: 50px 0;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--column-gap);
+}
+
+.col-30 {
+    width: calc((100% - var(--column-gap)*2) / 3);
+    height: 500px;
+    border: 2px solid black;
+}
+
+.big-card {
+    border: 2px solid black;
+    height: 150px;
+}
+
+.flex-2col {
+    display: flex;
+}
+
 /* FOOTER */
