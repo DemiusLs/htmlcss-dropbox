@@ -1,0 +1,48 @@
+/* VARIABLES */
+:root {
+    --color-header: #ff0000;
+    --color-hero-bg: #B4D0E6;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COMMON */
+/* layout */
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    background-color: var(--color-header);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+}
+
+.navigation {
+    width: 30%;
+    height: 50px;
+    background-color: rgb(25, 101, 168);
+
+}
+
+/* MAIN */
+/* FOOTER */
