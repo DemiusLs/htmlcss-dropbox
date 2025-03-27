@@ -29,6 +29,12 @@ ul {
 
 }
 
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
 .py-50 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -74,18 +80,22 @@ ul {
 }
 
 
+.col-small {
+    width: 30%;
+}
 
 .col-40 {
     width: 40%;
-    border: black 2px solid;
-
-
 
 }
 
 .col-60 {
     width: 60%;
-    border: black 2px solid;
+
+}
+
+.col-70 {
+    width: 70%;
 
 }
 
@@ -129,6 +139,7 @@ ul {
     background-color: blue;
     color: #ffffff;
     padding: 10px 12px;
+    font-size: 0.8rem;
 
 }
 
@@ -156,6 +167,7 @@ h1 {
 
 
 
+
 /* Card section */
 
 .flex-container {
@@ -179,20 +191,19 @@ h1 {
     display: flex;
     justify-content: space-between;
 
-    .col-40 {
+    .col-small {
         text-align: right;
         padding: 10px;
 
     }
 
-    .col-60 {
+    .col-70 {
         padding: 10px;
     }
 
 
 
 }
-
 
 .card-header {
     text-align: center;
@@ -203,6 +214,16 @@ h1 {
 .blue-txt {
     color: rgb(18, 53, 207);
 }
+
+
+/* Partner section */
+.btn-white {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: #000000 solid 2px;
+}
+
+
 
 
 .s-action {
