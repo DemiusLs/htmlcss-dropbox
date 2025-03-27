@@ -65,6 +65,12 @@ h4 {
 
 }
 
+
+.py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .my-10 {
     margin-bottom: 10px;
 }
@@ -133,6 +139,10 @@ h4 {
     display: flex;
 }
 
+.pos-relative {
+
+    position: relative;
+}
 
 /* HEADER */
 .header {
@@ -189,7 +199,7 @@ h4 {
 
 .jumbo-img {
     position: absolute;
-    max-width: 50%;
+
 
 }
 
@@ -256,10 +266,7 @@ h4 {
 
 
 
-.action {
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
+
 
 /* FOOTER */
 
