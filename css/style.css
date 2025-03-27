@@ -21,16 +21,20 @@ ul {
     list-style: none;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+}
 
 /* COMMON */
 
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4.8rem;
+    font-weight: 800;
 }
 
 h2 {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
 }
 
 h3 {
@@ -91,8 +95,20 @@ h4 {
     margin-bottom: 50px;
 }
 
-.mx-20 {
-    margin-right: 20px;
+.my-60{
+    margin-bottom: 60px;
+}
+
+.my-70 {
+    margin-bottom: 70px;
+}
+
+.my-80 {
+    margin-bottom: 80px;
+}
+
+.mx-40 {
+    margin-right: 40px;
 }
 
 
@@ -144,24 +160,7 @@ h4 {
     position: relative;
 }
 
-/* HEADER */
-.header {
-    background-color: var(--color-header);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 15px;
-}
-
-.header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-
-
-}
+/* buttons */
 
 .btn {
     text-decoration: none;
@@ -174,27 +173,57 @@ h4 {
     background-color: blue;
     color: #ffffff;
     padding: 10px 12px;
-    font-size: 0.8rem;
+    font-size: 1rem;
 
 }
 
 .blue-bg {
     background-color: blue;
     color: #ffffff;
-    padding: 5px 12px;
+    padding: 10px 15px;
 }
+
+/* HEADER */
+.header {
+    background-color: var(--color-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 5px 23px;
+
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    color: #545454;
+
+
+
+}
+
+.right-nav {
+    padding-right: 20px;
+}
+
+
 
 /* MAIN */
 
 /* hero section */
 .hero-section {
     background-color: var(--color-hero-bg);
+    padding-top: 80px;
 }
 
 
 
 .arrow {
-    font-size: 2rem;
+    font-size: 3rem;
+    display: block;
 }
 
 .jumbo-img {
@@ -222,7 +251,7 @@ h4 {
 }
 
 .border-gray {
-    border: #DAD9DE 2px solid;
+    border: #DAD9DE 1px solid;
 }
 
 
@@ -248,7 +277,7 @@ h4 {
 .card-header {
     text-align: center;
     padding: 10px 0;
-    border-bottom: #DAD9DE 2px solid;
+    border-bottom: #DAD9DE 1px solid;
 }
 
 .blue-txt {
