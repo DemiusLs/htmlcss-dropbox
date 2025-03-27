@@ -21,7 +21,26 @@ ul {
     list-style: none;
 }
 
+
 /* COMMON */
+
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
 /* layout */
 .py-20 {
     padding-top: 20px;
@@ -38,6 +57,12 @@ ul {
 .py-50 {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.py-80-50 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+
 }
 
 .my-10 {
@@ -156,14 +181,17 @@ ul {
     background-color: var(--color-hero-bg);
 }
 
-h1 {
-    font-size: 3.5rem;
-}
+
 
 .arrow {
     font-size: 2rem;
 }
 
+.jumbo-img {
+    position: absolute;
+    max-width: 50%;
+
+}
 
 /* Card section */
 
@@ -176,10 +204,9 @@ h1 {
 .col-30 {
     width: calc((100% - var(--column-gap)*2) / 3);
 
-    /* debug */
-    border: #DAD9DE 2px solid;
 
-    img{
+
+    img {
         display: inline-block;
     }
 }
