@@ -165,9 +165,6 @@ h1 {
 }
 
 
-
-
-
 /* Card section */
 
 .flex-container {
@@ -178,14 +175,20 @@ h1 {
 
 .col-30 {
     width: calc((100% - var(--column-gap)*2) / 3);
+
+    /* debug */
+    border: #DAD9DE 2px solid;
+
+    img{
+        display: inline-block;
+    }
+}
+
+.border-gray {
     border: #DAD9DE 2px solid;
 }
 
 
-.big-card {
-    border: #DAD9DE 2px solid;
-
-}
 
 .big-card-flex {
     display: flex;
@@ -226,7 +229,7 @@ h1 {
 
 
 
-.s-action {
+.action {
     padding-top: 50px;
     padding-bottom: 100px;
 }
