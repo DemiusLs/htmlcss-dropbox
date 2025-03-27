@@ -94,6 +94,11 @@ ul {
     display: inline-block;
 }
 
+.flex {
+    display: flex;
+}
+
+
 /* HEADER */
 .header {
     background-color: var(--color-header);
@@ -167,7 +172,25 @@ h1 {
 
 .big-card {
     border: #DAD9DE 2px solid;
-    height: 150px;
+
+}
+
+.big-card-flex {
+    display: flex;
+    justify-content: space-between;
+
+    .col-40 {
+        text-align: right;
+        padding: 10px;
+
+    }
+
+    .col-60 {
+        padding: 10px;
+    }
+
+
+
 }
 
 
